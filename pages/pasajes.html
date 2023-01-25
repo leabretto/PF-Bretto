@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pasajes al mejor precio">
+  <meta name="keywords" content="viajes, pasajes, seguro de viaje, alquiler de autos, destinos, vacaciones">
+  <title>Turismo Blitz - Pasajes</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="icon" href="/Imagenes/icon.ico">
+  <link rel="stylesheet" href="/estilos.css">
+</head>
+
+<body class="foto-atras">
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Brand -->
+    <img src="/Imagenes/boat-g5eab6e1dc_640.png" class="img-nav">
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item bounce-in-top li1">
+          <a class="nav-link" href="/index.html"><span class="span">Blitz</span></a>
+        </li>
+        <li class="nav-item bounce-in-top li2">
+          <a class="nav-link" href="paquetes.html">Paquetes</a>
+        </li>
+        <li class="nav-item bounce-in-top li3">
+          <a class="nav-link" href="pasajes.html">Pasajes</a>
+        </li>
+        <li class="nav-item bounce-in-top li4">
+          <a class="nav-link" href="alquiler-autos.html">Alquiler de Autos</a>
+        </li>
+        <li class="nav-item bounce-in-top li5">
+          <a class="nav-link" href="seguros.html">Seguro de Viajes</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+  <header>
+    <div class="pasajes">
+      <h4 class="titulo-pasajes">Pasajes</h4>
+      <p class="parrafo-pasajes">Elegi tu Vuelo! y empeza a disfrutar</p>
+      <div class="icono">
+        <img src="/Imagenes/Icono-pasajes.png" class="icono-avion">
+      </div>
+
+    </div>
+
+
+  </header>
+  <section>
+
+
+
+    <form method="post" action="" enctype="text/plain" class="formulario">
+      <input type="radio" name="ida" id="ida">
+      <label for="ida">Ida</label>
+      <input type="radio" name="ida" id="idaivuelta">
+      <label for="idayvuelta">Ida y Vuelta</label><br><br>
+      <label for="origen">Origen</label>
+      <select id="origen" name="origen">
+        <option value="argentina">Argentina</option>
+      </select>
+      <label for="destino">Destino</label>
+      <select id="destino" name="destino">
+        <option value="brasil">Brasil</option>
+        <option value="españa">España</option>
+        <option value="italia">Italia</option>
+        <option value="francia">Francia</option>
+        <option value="potugal">Portugal</option>
+        <option value="japon">Japon</option>
+      </select><br><br>
+      <label for="salida">Fecha de Salida</label>
+      <input type="date" id="salida" name="salida">
+      <label for="regreso">Fecha de Regreso</label>
+      <input type="date" id="regreso" name="regreso"><br><br>
+      <label for="pasajeros">Pasajeros</label>
+      <input type="number" id="pasajeros" name="pasajeros"><br><br>
+      <label for="consultas">Consulta</label><br>
+<textarea class="text" id="consultas" name="consultas" rows="10" cols="50" placeholder="Esta es mi consulta">
+</textarea><br>
+      <input type="button" value="Enviar" class="boton">
+
+
+
+    </form>
+
+    </div>
+
+
+  </section>
+  <footer class="container-fluid footer">
+    <div class="row">
+      <div class="col-md-3">
+        <img src="/Imagenes/boat-g5eab6e1dc_640.png" alt="logo" class="img-nav-footer">
+      </div>
+      <div class="col-md-3 direccion">
+        <p>Escribinos</p>
+        <i class="bi bi-envelope-at icon"></i>
+        <p>turismoblitz@turismo.com</p>
+      </div>
+      <div class="col-md-3 direccion">
+        <p>Donde Estamos</p>
+        <i class="bi bi-geo-alt icon"></i>
+        <p>Av. San Martin 569</p>
+      </div>
+      <div class="col-md-3 direccion">
+        <p>Llamanos!</p>
+        <i class="bi bi-telephone icon"></i>
+        <p>02972-507413</p>
+      </div>
+
+    </div>
+    <div class="copy">
+      <i class="bi bi-c-circle derechos">Todos los derechos reservados</i>
+
+    </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
