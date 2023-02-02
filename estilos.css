@@ -216,7 +216,7 @@ a.link:hover {
 
 .foto-atras {
   background-color: #4158D0;
-  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  background-image: linear-gradient(109.6deg, rgb(209, 0, 116) 11.2%, rgb(110, 44, 107) 91.1%);
 }
 .foto-atras .text {
   resize: none;
@@ -245,6 +245,7 @@ label {
   border-radius: 30px 0 30px 0;
   cursor: pointer;
   letter-spacing: 5px;
+  border: 1px solid white;
 }
 
 .boton:hover {
@@ -297,6 +298,7 @@ section {
 .titulo-seguros {
   text-align: center;
   font-weight: 700;
+  text-shadow: 2px 2px 5px whitesmoke;
 }
 
 .sub-seguros {

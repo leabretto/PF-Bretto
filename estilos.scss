@@ -135,7 +135,7 @@ a.link:hover{
 }
 
 .footer{
-     .img-nav-footer{
+    .img-nav-footer{
     width: 150px;
     border-radius: 50%;
     border: 1px solid red;
@@ -249,7 +249,7 @@ a.link:hover{
 }
 .foto-atras{
     background-color: #4158D0;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-image: linear-gradient( 109.6deg,  rgba(209,0,116,1) 11.2%, rgba(110,44,107,1) 91.1% );
 
 .text{
     resize: none;
@@ -281,6 +281,7 @@ label{
     border-radius: 30px 0 30px 0;
     cursor: pointer;
     letter-spacing: 5px;
+    border: 1px solid $color2;
 
 }
 
@@ -335,6 +336,7 @@ section{
 .titulo-seguros{
     text-align: center;
     font-weight: 700;
+    text-shadow: 2px 2px 5px whitesmoke;
 }
 
 .sub-seguros{
